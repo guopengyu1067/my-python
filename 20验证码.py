@@ -17,11 +17,12 @@ while True:
         code = ""
         for i in range(n):
             code += random.choice(s)
-            print(code)
-            u=input("请输入验证码：")
+        print(code)
+        u=input("请输入验证码：")
     if u==code:
         print("验证码正确")
         break
+
 
 
 
